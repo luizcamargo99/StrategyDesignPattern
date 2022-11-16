@@ -2,6 +2,6 @@
 {
     internal interface ITransportationStrategy
     {
-        void CalculateFreight();
+        void CalculateShipping();
     }
 }

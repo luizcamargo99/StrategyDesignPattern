@@ -4,13 +4,13 @@
     {
         static void Main(string[] args)
         {
-            //CalculateFreight("DHL");
+            //CalculateShipping("DHL");
             TransportationContext transportationContext = new(new DHL());
-            transportationContext.CalculateFreight();
+            transportationContext.CalculateShipping();
         }
 
         // Without Strategy
-        static void CalculateFreight(string type)
+        static void CalculateShipping(string type)
         {
             if (type == "Sedex")
             {

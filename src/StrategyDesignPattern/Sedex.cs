@@ -2,7 +2,7 @@
 {
     internal class Sedex : ITransportationStrategy
     {
-        public void CalculateFreight()
+        public void CalculateShipping()
         {
             Console.WriteLine("Calcular usando Sedex");
         }

@@ -9,9 +9,9 @@
             _strategy = strategy;
         }
 
-        public void CalculateFreight()
+        public void CalculateShipping()
         {
-            _strategy.CalculateFreight();
+            _strategy.CalculateShipping();
         }
     }
 }

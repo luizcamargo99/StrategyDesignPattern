@@ -2,7 +2,7 @@
 {
     internal class DHL : ITransportationStrategy
     {
-        public void CalculateFreight()
+        public void CalculateShipping()
         {
             Console.WriteLine("Calcular usando DHL");
         }
