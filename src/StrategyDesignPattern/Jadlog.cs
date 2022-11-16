@@ -1,10 +1,9 @@
-﻿namespace StrategyDesignPattern
+﻿namespace StrategyDesignPattern;
+
+internal class Jadlog : ITransportationStrategy
 {
-    internal class Jadlog : ITransportationStrategy
+    public void CalculateShipping()
     {
-        public void CalculateShipping()
-        {
-            Console.WriteLine("Calcular usando Jadlog");
-        }
+        Console.WriteLine("Calcular usando Jadlog");
     }
 }

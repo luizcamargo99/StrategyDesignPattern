@@ -1,7 +1,6 @@
-﻿namespace StrategyDesignPattern
+﻿namespace StrategyDesignPattern;
+
+internal interface ITransportationStrategy
 {
-    internal interface ITransportationStrategy
-    {
-        void CalculateShipping();
-    }
+    void CalculateShipping();
 }

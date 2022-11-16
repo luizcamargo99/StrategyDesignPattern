@@ -1,10 +1,10 @@
-﻿namespace StrategyDesignPattern
+﻿namespace StrategyDesignPattern;
+
+internal class Sedex : ITransportationStrategy
 {
-    internal class Sedex : ITransportationStrategy
+    public void CalculateShipping()
     {
-        public void CalculateShipping()
-        {
-            Console.WriteLine("Calcular usando Sedex");
-        }
+        Console.WriteLine("Calcular usando Sedex");
     }
 }
+

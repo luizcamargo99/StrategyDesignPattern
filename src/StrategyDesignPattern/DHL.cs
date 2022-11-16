@@ -1,10 +1,9 @@
-﻿namespace StrategyDesignPattern
+﻿namespace StrategyDesignPattern;
+
+internal class DHL : ITransportationStrategy
 {
-    internal class DHL : ITransportationStrategy
+    public void CalculateShipping()
     {
-        public void CalculateShipping()
-        {
-            Console.WriteLine("Calcular usando DHL");
-        }
+        Console.WriteLine("Calcular usando DHL");
     }
 }
